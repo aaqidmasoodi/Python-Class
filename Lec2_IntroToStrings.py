@@ -6,7 +6,15 @@
 # use a single qoutes or double qoutes to make a string literal
 
 # example
+my_str = str() # string constructor
+my_str = '' # len() -> 0
 my_str = 'Hello World'
+
+
+# type hinting
+# type annonating
+
+name: str = 'Hello World' # valid syntax
 
 
 # hello world is a string
@@ -60,14 +68,16 @@ my_str = 'Hello World'
         upper() - Converts a string into upper case
         zfill() - Fills the string with a specified number of 0 values at the beginning
 
+        # 52 total
+
 '''
 
 # Examples on how to use them
 
 
 name = 'Aaqid'
-
-print(name.upper())
+name = 5
+print(name.count('A'))
 # output: AAQID
 
 '''
@@ -165,6 +175,7 @@ print(last_name[0:6:2]) # this will move forward 2 units each time
     the default value of step is 1
 '''
 
+last_name = 'Helloworld'
 print(last_name[-1:-4:-1])
 # start from -1 and go back upto by not including -4.
 
@@ -178,9 +189,8 @@ print(last_name[-1:-4:-1])
 # Example
 print('Salman'[0:2]) 
 
-last_letter = 'Salman'[-1]
+last_letter = 'Salman'[-1] # what is only obj[-1]?
 print(last_letter)
-
 
 
 '''
