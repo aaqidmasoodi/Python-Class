@@ -2,15 +2,15 @@ mylist = []
 
 print(dir(mylist))
 
-['append', *
-'clear', *
+['append', 
+'clear', 
 'copy', # copy
-'count',*
+'count',
 'extend',
-'index',*
-'insert',*
-'pop',*
-'remove',
-'reverse',*
-'sort'*
+'index',
+'insert',
+'pop',
+'remove', 
+'reverse',
+'sort'
 ]
