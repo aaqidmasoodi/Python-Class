@@ -1,6 +1,8 @@
-my_list = [1,2,3,4,5]
+names = ['Aaqid', 'Basit', 'Salman']
 
 
+#    it takes an object as an argument which is present in the list
+names.remove('Salman') # application will crash throwing a ValueError
 
 # append - adds an element to the end of the list
 # pop - removes an element at a specified index (default = last)
@@ -12,3 +14,6 @@ my_list = [1,2,3,4,5]
 # reverse - reverses the list
 # extend - it extends the list from a given iterable
 # copy - it make a copy of the list
+# remove - remove a specified object from the only if it is present, throws an error otherwise.
+
+print(names)
