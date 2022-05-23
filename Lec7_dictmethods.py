@@ -1,8 +1,13 @@
+
 months = {
     'Jan':'January',
     'Feb':'Feburary',
     'Mar':'March',
 }
+
+
+print(f'THIS: {type(months)}')
+
 
 # DONE
 # .clear()
@@ -13,6 +18,9 @@ months = {
 # .values()
 # .items()
 # .update()
+
+
+
 
 # .fromkeys()
 # .setdefault
