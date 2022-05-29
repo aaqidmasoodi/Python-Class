@@ -1,0 +1,15 @@
+# INT
+# FLOAT
+
+# COMPLEX NUMBERS *
+
+# STRING
+# LISTS
+# TUPLES
+# DICTIONARIES
+# SETS
+
+# FROZEN SETS *
+
+
+# Control Flow (if elif else)

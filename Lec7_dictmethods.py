@@ -20,10 +20,8 @@ print(f'THIS: {type(months)}')
 # .update()
 
 
-
-
 # .fromkeys()
-# .setdefault
+# .setdefault()
 
 # print(months['Jan'])
 # print(months.get('Jan'))

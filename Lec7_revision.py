@@ -1,3 +1,10 @@
+months = {
+    'hello':'world',
+
+}
+
+
+
 # acoount_info = {
 #     'id': 2,
 #     'name':'salman',
