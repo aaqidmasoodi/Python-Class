@@ -4,6 +4,7 @@
 '''
     int
     float
+    complex
 
     string
     list
@@ -11,7 +12,7 @@
 
     sets
     dictionary
-    complex
+    frozenset
 '''
 
 
