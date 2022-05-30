@@ -3,18 +3,18 @@ temprature = 50
 
 
 
-if temprature > 50:
-    print("it is hot outsiide")
+# if temprature > 50:
+#     print("it is hot outsiide")
+#     print("asdfasdf")
 
-elif temprature > 25:
-    print("it is moderate outside")
+# elif temprature > 25:
+#     print("it is moderate outside")
 
+# elif temprature > 10:
+#     print("it is kindaa cold")
 
-elif temprature > 10:
-    print("it is kindaa cold")
-
-else:
-    print("It is cold.")
+# else:
+#     print("It is cold.")
 
 
 # if temprature > 40:
