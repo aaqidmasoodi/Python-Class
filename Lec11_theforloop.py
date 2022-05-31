@@ -3,6 +3,15 @@
 
 
 # fruits = ['Mango', 'Muullberry', 'Apple', 'Orange']
+# sample_str = 'Banana'
+
+
+# # for pizza in range(len(fruits)):
+# #     print(fruits[pizza])
+
+
+# for asdfa in sample_str:
+#     print(asdfa)
 
 
 # buffer = []
