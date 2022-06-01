@@ -9,6 +9,7 @@ fruits = ['Mango', 'Banana', 'kiwi', 'orange', 'lichi']
 
 for fruit in fruits:
     if fruit == 'kiwi':
+        print(fruit)
         # break # break out of loop
         # continue # skip to next iteration
     # print(fruit)
