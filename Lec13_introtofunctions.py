@@ -7,17 +7,29 @@
 
 # scope
 
+# x = 5
 
-name = 'Aaqid'
+# print(type(x)) # we print what "type" returns
 
-def greet(): 
-    print(f'Hello World')
-    print(f'Hello Yo!!')
 
-greet()
-print("More stuff")
-print("asfsladf")
-greet()
+# def add(num1, num2):
+#     print("Hello World")
+
+
+
+# add(4)
+# add(12,12)
+
+# xyz = 'Hello'
+
+# def greet(name): 
+#     print(f'Hello {name}')
+#     print(f'Hello Yo!!')
+
+# greet(xyz)
+# print("More stuff")
+# print("asfsladf")
+# greet('Basit')
 
 # how to call a python
 
