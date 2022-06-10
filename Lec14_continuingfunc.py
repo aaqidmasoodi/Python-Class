@@ -4,7 +4,7 @@ user_values = [1,6,4,2,3,7]
 
 
 
-def get_coordinates(target_list):
+def get_coordinates(target_list: list) -> tuple:
     if len(target_list) != 6:
         return
     
@@ -16,7 +16,6 @@ def get_coordinates(target_list):
     return x, y, z
 
 
-
 coordinates = get_coordinates(user_values)
 
 
@@ -25,8 +24,6 @@ print(coordinates)
 
 # write a function to print numbers upto the given argument
 
-
-gen_nums(10)
 
 
 
