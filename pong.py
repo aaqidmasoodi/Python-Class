@@ -2,8 +2,12 @@
 import turtle
 import time
 
+
 # GAME VARS
 DELTA_TIME = 1/240
+score_a = 0
+score_b = 0
+
 
 
 # window
@@ -44,17 +48,25 @@ dx = 2
 dy = 2
 
 
+
+# score write 
+scorer = turtle.Turtle()
+scorer.color('white')
+scorer.penup()
+scorer.goto(0,250)
+# write (str, align, font)
+scorer.write(f'{score_a} | {score_b}', font=('OpenSans', 24, 'bold'))
+scorer.hideturtle()
+
 # paddle movement functions
 def paddle_a_up():
 	paddle_a.sety(paddle_a.ycor() + 40)
-
 
 def paddle_a_down():
 	paddle_a.sety(paddle_a.ycor() - 40)
 
 def paddle_b_up():
 	paddle_b.sety(paddle_b.ycor() + 40)
-
 
 def paddle_b_down():
 	paddle_b.sety(paddle_b.ycor() - 40)
@@ -86,19 +98,30 @@ while True:
 		dy = -dy
 
 	# right and left collision
-	if ball.xcor() > 390 or ball.xcor() < -390:
+	if ball.xcor() > 450 or ball.xcor() < -450:
 		dx = -dx
+		ball.goto(0,0)
 
 
-	# paddle and ball collision
 
+	# ball and paddle collison
+	# left
 	if ball.xcor() < paddle_a.xcor() + 20 and ball.ycor() < paddle_a.ycor() + 50 and ball.ycor() > paddle_a.ycor() - 50:
 		ball.setx(paddle_a.xcor() + 20)
-		dx *= -1
+		dx = -dx
+		score_a += 1
+		scorer.clear() # clear whatever this particular turtle has written
+		scorer.write(f'{score_a} | {score_b}', font=('OpenSans', 24, 'bold')) # rewrite the score
 
+	# right
 	elif ball.xcor() > paddle_b.xcor() - 20 and ball.ycor() < paddle_b.ycor() + 50 and ball.ycor() > paddle_b.ycor() - 50:
 		ball.setx(paddle_b.xcor() - 20)
-		dx *= -1
+		dx = -dx
+		score_b += 1
+		scorer.clear()
+		scorer.write(f'{score_a} | {score_b}', font=('OpenSans', 24, 'bold')) # rewrite the score
+
+
 
 
 	screen.update() # update the screen
