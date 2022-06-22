@@ -2,14 +2,14 @@
 import turtle
 import time
 
-
+# class ScrolledCanvas(TK.Frame):
 # GAME VARS
 DELTA_TIME = 1/240
 score_a = 0
 score_b = 0
 
 
-
+# this.
 # window
 screen = turtle.Screen()
 screen.title('PONG GAME')
