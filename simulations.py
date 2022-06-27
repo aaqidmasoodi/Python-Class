@@ -44,7 +44,7 @@ def bounce():
 scr.listen()
 scr.onkeypress(bounce, 'space')
 
-# OOP
+# OOP - 
 
 while True:
 
@@ -59,6 +59,7 @@ while True:
 
 	if ball.ycor() < -280:
 		ball.dy = floor_kick
+		
 		if floor_kick > 0:
 			floor_kick -= 2
 		else:
