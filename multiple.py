@@ -34,6 +34,5 @@ while True:
 
 
 	scr.update()
-	time.sleep(1/240)
 
 
