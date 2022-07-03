@@ -12,6 +12,9 @@ scr.setup(width=1280, height=720)
 scr.addshape('flappy_bird.gif')
 scr.tracer(0)
 
+print(type(scr))
+
+
 # BIRD
 bird = turtle.Turtle()
 bird.shape('flappy_bird.gif')
