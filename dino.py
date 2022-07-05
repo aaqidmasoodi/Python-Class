@@ -2,8 +2,6 @@ import turtle
 import time
 import random
 
-
-
 # score
 score = 0
 

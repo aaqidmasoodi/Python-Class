@@ -1,5 +1,7 @@
 class Employee:
 
+	# they are usually global to all instances
+
 	no_of_employees = 0
 	raise_amt = 9.5
 
@@ -39,5 +41,18 @@ print(emp2.get_salary())
 print(emp1.__dict__)
 print(emp2.__dict__)
 
-# x = [1,2,3] # we can change the string representation of an object
-# print(x)
+
+print(Employee.no_of_employees)
+
+
+# class Dog:
+
+'''
+track no of dog objects created
+
+# color, age, breed
+have methods like bard
+getter and setters
+
+
+'''
